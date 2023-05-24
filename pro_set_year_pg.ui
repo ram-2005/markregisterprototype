@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>769</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>769</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>769</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#Dialog{
+background-color: qlineargradient(spread:reflect, x1:0.0454545, y1:0.966, x2:0.619, y2:0.386, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(17, 0, 104, 255));
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-30</y>
+     <width>781</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0.091, y1:0.931955, x2:1, y2:0, stop:0 rgba(3, 3, 255, 255), stop:0.289773 rgba(27, 33, 255, 255), stop:0.482955 rgba(65, 34, 255, 255), stop:0.869318 rgba(124, 64, 255, 255), stop:1 rgba(159, 25, 255, 255));
+font: 240pt &quot;Terminal&quot;;
+border-radius : 30px</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>411</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 65pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Set Year</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>250</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Year :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="setyear_year">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>250</y>
+     <width>211</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+border-radius : 10px;
+ color: rgb(246, 172, 255);
+font: 12pt &quot;Arial&quot;;
+background-color: qlineargradient(spread:pad, x1:0.994, y1:1, x2:0, y2:0, stop:             0.0227273 rgba(5, 92, 255, 255), stop:1 rgba(170, 0, 255, 255));
+
+}
+
+
+</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="setyear_execute">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>320</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QPushButton{
+
+
+ color: rgb(246, 172, 255);
+ font: 14pt &quot;Arial&quot;; 
+ background-color: qlineargradient(spread:pad, x1:0.994, y1:1, x2:0, y2:0,     stop:0.0227273 rgba(5, 92, 255, 255), stop:1 rgba(170, 0, 255, 255));
+ border-color: rgb(170, 0, 255);
+ border-radius : 20px;
+
+
+
+}
+
+QPushButton:hover{
+ background-color: rgb(170, 85, 255);
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string>SET YEAR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="setyear_backpg_execute">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>410</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> QPushButton{
+
+
+ color: rgb(246, 172, 255);
+ font: 14pt &quot;Arial&quot;; 
+ background-color: qlineargradient(spread:pad, x1:0.994, y1:1, x2:0, y2:0,     stop:0.0227273 rgba(5, 92, 255, 255), stop:1 rgba(170, 0, 255, 255));
+ border-color: rgb(170, 0, 255);
+ border-radius : 15px;
+
+
+
+}
+
+QPushButton:hover{
+ background-color: rgb(170, 85, 255);
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string>back pg</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="message_label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>150</y>
+     <width>451</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+
+font: 12pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
